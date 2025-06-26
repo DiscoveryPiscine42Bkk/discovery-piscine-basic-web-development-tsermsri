@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  }
+  
+  .parallax1 {
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2025/01/hello-kitty-happy-cute-cat-desktop-wallpaper-preview.jpg); 
+  }
+  
+  .parallax2 {
+    background-image: url(https://wallpapers.com/images/featured/kuromi-ouap9qsclxqc7ngt.jpg);
+  }
+  
+  .content {
+    height: 300px;
+    background-color: rgb(180, 232, 229);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
